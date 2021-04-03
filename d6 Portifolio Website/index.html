@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Personal Portifolio Wender</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="toggle" onclick="toggleMenu();"></div>
+    <section class="banner" id="home">
+
+  <div class="imgSidebar">
+       <img src="bg.jpg">
+     </div>
+      <div class="contentBx">      
+         <h5 class="logoText">Wender's_Portifolio</h5>
+         <div>
+            <h4><span>Hello</span>I'm</h4>
+            <h2>Wender Reis</h2>
+            <h4>I'm an Aspiring Web Developer.</h4>
+            <p>asdasdasdasdawcxawcwadaaaaakvdsfvoiundsfoibdfsoibdfsoiavhjpaodsvjpsaodjvsadpovjspadovjsapdofsapdofsdavpo</p>
+            <a href="#" class="btn">About Me</a><!-- link about me button-->
+        </div>
+         <ul class="sci">
+            <li><a href="#"><img src="facebook.png"></a></li>
+            <li><a href="#"><img src="twitter.png"></a></li>
+            <li><a href="#"><img src="instagram.png"></a></li>
+        </ul>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="title white">
+        <h2>About Us</h2>
+        <p>Lorem ipsum dolor el dorito Dorme.</p>
+    </div>
+    <div class="content">
+        <div class="textBx">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat tortor nec eros tempor gravida.
+                 Duis lacinia placerat commodo. Cras justo tellus, facilisis at tincidunt a, malesuada ac nisl. Mauris mattis
+                  pretium efficitur. Etiam non mattis ex. Quisque dictum erat porttitor purus rhoncus, in maximus diam tincidunt. 
+                  Quisque justo ante, euismod nec felis in, egestas eleifend eros. Vestibulum non velit consectetur, condimentum 
+                  risus vel, dictum tellus.Maecenas interdum aliquam ultricies. Aenean interdum luctus pharetra. Integer imperdiet 
+                  elis ac volutpat interdum. Suspendisse sodales consequat mi, eu sagittis dolor finibus non. Pellentesque nec justo 
+                  ligula. Proin nec scelerisque sem, non aliquet tortor. Donec congue, nulla sed eleifend rhoncus, enim elit vehicula 
+                  purus, sed tristique nibh dolor vel felis. Fusce aliquam orci in gravida ultrices. Duis et varius felis. Proin sagittis
+                   maximus fermentum. Quisque purus justo, malesuada at iaculis fringilla, gravida eu enim. Integer non purus ut eros
+                 sollicitudin gravida et sed turpis. Sed id nisi mauris. Pellentesque tempor felis nisl, at gravida libero malesuada id.
+            </p>
+        </div>
+    </div>
+</section>
+
+<div class="sidebar">
+<ul class="menu">
+    <li><a href="#">Home</a></li>
+    <li><a href="#">About</a></li>
+    <li><a href="#">Services</a></li>
+    <li><a href="#">Work</a></li>
+    <li><a href="#">Contact</a></li>
+</ul>
+</div>
+<script>
+      function toggleMenu(){
+        const menuToggle = document.querySelector('.toggle');
+        const sidebar = document.querySelector('.sidebar');
+        menuToggle.classList.toggle('active')
+       sidebar.classList.toggle('active') }
+   </script>
+</body>
+</html>
