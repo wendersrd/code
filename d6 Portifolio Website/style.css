@@ -39,7 +39,7 @@ section
     width: 100%;
     min-height: 100vh;
 }
-.banner .imgsidebar
+.banner .imgSidebar
 {
     position: absolute;
     top: 0;
@@ -47,7 +47,7 @@ section
     width: 500px;
     height: 100%;
 }
-.banner .imgsidebar img
+.banner .imgSidebar img
 {
     position: absolute;
     top: 0;
@@ -56,7 +56,7 @@ section
     height: 100%;
     object-fit: cover;
 }
-.banner .contextBx, 
+.banner .contentBx, 
 .sidebar
 {
     position: absolute;
@@ -438,7 +438,7 @@ background: #000;
     }
     .toggle
     {
-        left: 40px;
+        right: 40px;
     }
     .sci
     {
